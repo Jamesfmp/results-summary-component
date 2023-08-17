@@ -1,0 +1,67 @@
+html, body{
+    height: 100%;
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.result {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: hsl(241, 81%, 54%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10%;
+    
+    
+    
+}
+
+.summary {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+    
+}
+
+.score{
+    background-color: aqua;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+
