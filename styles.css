@@ -1,7 +1,10 @@
+
 html, body{
     height: 100%;
-    background-color: hsl(221, 100%, 96%);
+    background-color: white;
     font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    
     
 }
 
@@ -13,55 +16,111 @@ ul {
     list-style-type: none;
     padding: 0
 }
-.wrapper{
+
+h1{
+    font-size: 18px;
+}
+
+.wrapper {
     display: flex;
     height: 100%;
     justify-content: center;
     align-items: center;
+    
 }
-
 .container {
-    display: flex;
+    border-radius: 5%;
+    box-shadow: 10px 10px 25px 4px hsla(256, 72%, 46%, 0.1);
+    background-color: white;
     width: 600px;
     height: 400px;
-    align-items: center;
-    justify-content: center;
-    
+    display: flex;
 
 }
 
 .result {
-    display: flex;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 5%;
+    color: hsl(241, 100%, 89%);
     width: 50%;
-    height: 100%;
-    background-color: hsl(241, 81%, 54%);
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 10%;
-    
-    
-    
+    gap: 20px
 }
 
-.summary {
+.result h1{
+    margin-top: 30px
+}
+
+.circle{
+    border-radius: 100%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
     display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-   
-    
+    flex-direction: column;
 }
-
 .score{
-    background-color: aqua;
-    height: 130px;
-    width: 130px;
-    border-radius: 50%;
+    margin-top: 30px
 }
 
+.score span{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+.score p{
+    margin-top: 0
+}
 
+.feedback{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.feedback span{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.summary{
+    width: 50%;
+}
+
+.summary-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px
+}
+.stats{
+    display: flex;
+    justify-content: space-around;
+    color: hsla(0, 0%, 0%, 0.5);
+    font-weight: 700
+}
+
+.stat1{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+}
+
+.stat1 
+
+.stat2{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+}
+.stat3{
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+}
+.stat4{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+}

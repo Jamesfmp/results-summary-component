@@ -4,59 +4,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="styles.css">
   <title>Results summary component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
 </head>
 
 <body>
+  
   <div class="wrapper">
-    <div class="container">
-      
-      <div class="summary">
-        <div class="result">
-          Your Result
-          <div class="score">
-            76
-            of 100
-          </div>
-          <div class="feedback">
-            Great
-            You scored higher than 65% of the people who have taken these tests.
-          </div>
-        Summary
-        <ul>
-          <li>
-            Reaction
-            <span>80 / 100</span>
-          </li>
-          <li>
-            Memory
-            <span>92 / 100</span>
-          </li>
-          <li>
-            Verbal
-            <span>61 / 100</span>
-          </li>
-          <li>
-            Visual
-            <span>72 / 100</span>
-          </li>
-        </ul>
-        <button class="button">
-          Continue
-        </button>
-      </div>
-    </div>
-  </div>
 
+    <div class="container">
+
+      <div class="result">
+        <h1>Your Result</h1>
+        <div class="circle">
+          <div class="score">
+          <span>76</span>
+          <p>of 100</p>
+        </div>
+        </div>
+        <div class="feedback">
+          <span>Great</span>
+          <p>You scored higher than 65% of the people who have taken these test.</p>
+        </div>
+      </div>
+
+      <div class="summary">
+        <div class="summary-container">
+          <h1>Summary</h1>   
+          <div class="stats stat1">
+            <p>Reaction</p><p><span>80</span>/100</p>
+          </div>
+          <div class="stats stat2">
+            <p>Memory</p><p><span>92</span>/100</p>
+          </div>
+          <div class="stats stat3">
+            <p>Verbal</p><p><span>61</span>/100</p>
+          </div>
+          <div class="stats stat4">
+            <p>Visual</p><p><span>72</span>/100</p>
+          </div>
+          <button>Continue</button>
+        
+
+      </div>
+
+    </div>
+
+  </div>
 
 
 
