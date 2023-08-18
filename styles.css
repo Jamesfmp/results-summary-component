@@ -96,6 +96,7 @@ h1{
 
 .summary h1{
     font-weight: 800;
+    color: hsla(0, 0%, 0%, 0.8)
 }
 
 .summary-container{
@@ -114,8 +115,9 @@ h1{
 }
 
 .stats span{
-    color: black
+    color: hsla(0, 0%, 0%, 0.8)
 }
+
 .stat1{
     background-color: hsla(0, 100%, 67%, 0.05);
     border-radius: 10px;
@@ -168,4 +170,21 @@ h1{
 .visual-color{
     color:hsla(234, 85%, 45%, 0.8);
     margin-left: -30px
+}
+
+button{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.95);
+    background-color: hsl(224, 30%, 27%);
+    border: 0;
+    border-radius: 30px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%))
 }
